@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-up$3co822zk&#eqn&g%**9ui_fmuoauny-fj=jg3=xbc1s(rb!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["vikasz1.pythonanywhere.com"]
+ALLOWED_HOSTS = ["vikasz1.pythonanywhere.com",'localhost']
 
 
 # Application definition
@@ -122,8 +122,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+STATIC_ROOT = "/home/vikasz1/DjangoBlog/static"
+
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
