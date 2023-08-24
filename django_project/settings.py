@@ -122,6 +122,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# for production only on pythonanywhere
 STATIC_ROOT = "/home/vikasz1/DjangoBlog/static"
 
 
